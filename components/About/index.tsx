@@ -198,7 +198,7 @@ const About = () => {
                 </div>
               )}
               <P>{description}</P>
-              {skills && !showSkills && (
+              {/* {skills && !showSkills && (
                 <button
                   className="bg-gray-200 p-2 text-black rounded-2xl"
                   onMouseEnter={() => {
@@ -207,7 +207,7 @@ const About = () => {
                 >
                   Show Skills
                 </button>
-              )}
+              )} */}
               {skills && showSkills && (
                 <>
                   <div
