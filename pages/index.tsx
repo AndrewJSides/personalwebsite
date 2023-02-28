@@ -11,17 +11,18 @@ const inter = Inter({ subsets: ["latin"] });
 // useEffect to push the route /about
 
 export default function Home() {
-  useEffect(() => {
-    Router.push("/about");
-  }, []);
+  // useEffect(() => {
+  //   Router.push("/about");
+  // }, []);
 
   return (
     <>
       <Head>
         <title>Andrew Sides</title>
-        <meta name="description" content="Personal webpage of Andrew Sides" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Currently a Software Engineer, this is my personal webpage."
+        />
       </Head>
       {/* <MenuBarContainer /> */}
       <About />
